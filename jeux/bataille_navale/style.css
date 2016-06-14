@@ -1,0 +1,62 @@
+body {
+	margin: auto;
+	color: #282828; /* Couleur du texte*/
+	font: 16px/1.5em "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
+}
+.title {
+	text-align: center;
+	height: 30px;
+	background: #ccc;
+	margin-bottom: 30px;
+}
+.result {
+	margin-top: 10px;
+	width: 328px;
+}
+.container {
+	margin: auto;
+	max-width: 960px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background: #456;
+}
+.res-title {
+	text-align: center;
+	color: #ccc;
+	font-size: 3em;
+}
+table {
+	margin-top: 20px;
+	margin: auto;
+	font-size: 1em;
+}
+td {
+	width: 45px;
+	height: 45px;
+	background-color: #ccc;
+	color: #fff;
+	border: 2px;
+	text-align: center;
+}
+.scorex, .scoreo {
+	font-size: 3em;
+	margin-top: 80px;
+	color: #fff;
+}
+.resultat{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 2em;
+}
+.button {
+	width: 400px;
+	margin: auto;
+	display: flex;
+	justify-content:space-around;
+}
+#miboton {
+}
+
+

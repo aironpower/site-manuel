@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	color: #282828; /* Couleur du texte*/
+	font: 16px/1.5em "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
+}
+
+.container {
+	max-width: 960px;
+	margin: auto;
+}
+
+.site-header {
+	background: #090909;
+	padding: .5em 0;
+	color: #ebd961;
+}
+
+.site-title {
+	margin: 0;
+	font-size: 1.25rem;
+}
+.hero {
+	background: #000 url("http://fr.cdn.v5.futura-sciences.com/builds/images/thumbs/8/8209985c2a_big-bang-422749_1920.jpg") no-repeat center top;
+	background-size: cover;
+	padding: .5em 0;
+	height: 50vh; /* vh= viewport height (hauteur du navigateur) */
+	color: #fff;
+	line-height: 50vh;
+	text-align: center;
+}
+.hero-title{
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 200;
+	text-transform: capitalize;
+	line-height: 1.5em;
+	text-shadow: 0 0 15px blue;
+	border-color: black;
+}
+.hero-title big{
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+.about-us {
+	background: #599;
+	padding: 4em 0;
+}
+.section-title {
+	margin-top: 0;
+	font-weight: 200;
+	font-size: 2em;
+}
+.section-title::before {
+	content: "\f005 ";
+	font-family: FontAwesome;
+}
+
+.reasons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4em;
+}
+.reasons-title {
+	font-weight: 200;
+}
+.reasons-item {
+	flex: 1;
+	text-align: center;
+}
+.reasons-item + .reasons-item {
+	margin-left: 2em;
+}
+.reasons-item:nth-child(1):hover .reasons-icon{
+	color: #ebd961;
+}
+.reasons-item:nth-child(2):hover .reasons-icon{
+	color: #369;
+}
+.reasons-item:nth-child(3):hover .reasons-icon{
+	color: #693;
+}.reasons-item:hover .reasons-icon{
+	transform: translateY(-10%) scale(1.8) rotate(30deg);
+	transition: all .5s ease-in-out;
+}
+.reasons-icon {
+	display: inline-block;
+	font-size: 3em;
+	transition: all .5s ease-in-out;
+	transform-origin:
+}
+.contact {
+	padding: 4em 0;
+}
+.site-footer {
+	background: #599;
+	padding: 4em 0;
+}
+
+/* si l'ecran fait moins de 1024px */
+@media (max-width: 1024px) {
+	.container {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+@media (max-width: 768px) {
+	.hero {
+		height: 400px;
+		line-height: 400px;
+	}
+	.reasons {
+		flex-direction: column;
+	}
+	.reasons-item + .reasons-item {
+		margin-top: 2em;
+		margin-left: 0;
+	}
+	}
+}
+
+@media (min-width: ) and (max-width: ) {}

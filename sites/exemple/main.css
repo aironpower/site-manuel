@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	color: #282828; /* Couleur du texte*/
+	font: 16px/1.5em "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
+}
+
+.container {
+	max-width: 960px;
+	margin: auto;
+}
+
+.site-header {
+	background: #090909;
+	padding: .5em 0;
+	color: #ebd961;
+}
+
+.site-title {
+	margin: 0;
+	font-size: 1.25rem;
+}
+.hero {
+	background: #000 url("http://fr.cdn.v5.futura-sciences.com/builds/images/thumbs/8/8209985c2a_big-bang-422749_1920.jpg") no-repeat center top;
+	background-size: cover;
+	padding: .5em 0;
+	height: 50vh; /* vh= viewport height (hauteur du navigateur) */
+	color: #fff;
+	line-height: 50vh;
+	text-align: center;
+}
+.hero-title{
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 200;
+	text-transform: capitalize;
+	line-height: 1.5em;
+	text-shadow: 0 5 15px blue;
+}
+.hero-title big{
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+.about-us {
+	background: #599;
+	padding: 4em 0;
+}
+.section-title {
+	margin-top: 0;
+	font-weight: 200;
+	font-size: 2em;
+}
+.section-title::before {
+	content: "\f005 ";
+	font-family: FontAwesome;
+}
+.contact {
+	padding: 4em 0;
+}
+.site-footer {
+	background: #599;
+	padding: 4em 0;
+}
